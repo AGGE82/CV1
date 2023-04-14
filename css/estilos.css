@@ -1,0 +1,31 @@
+*{
+    border: 1px dotted tomato;
+}
+body {
+    margin: 0 auto;
+    max-width: 1000px;
+    font-family: "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+    padding: 10px 20px;
+    border: 1px solid black;
+    color: #555;
+}
+div.cabecera > div{
+    display: inline-block;
+
+}
+header > h1, header > h2{
+color: #0E3569;
+padding: 10px;
+margin: 5px;
+}
+main > section > h2,main > section > article > h3{
+    color: #0E3569;
+    padding: 10px;
+    margin: 5px
+}
+aside > section > h2,aside > section > article > h3{
+    color: #0E3569;
+    padding: 10px;
+    margin: 5px
+}
