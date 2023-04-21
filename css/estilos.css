@@ -21,7 +21,28 @@ main > section  > hgroup> h3,main > section > article > h3{
     padding: 10px;
     margin: 5px
 }
+aside{
+    display: inline-block;
+    width: 480px;
+    padding-right: 10px;
+}
+aside > section > h2,aside > section > hgroup> h2{
+    background-color: #D6DDE6;
+    color: #0E3569;
+    padding: 10px;
+    margin-right: 5px
+}
+aside > section  > hgroup> h3,aside > section > article > h3{
+    color: #0E3569;
+    padding: 10px;
+    margin: 5px
+}
 main > section > p,main > section >article > ul> li,main > section > article> p > strong {
+    color: #202021;
+    padding-left: 10px;
+    margin: 5px
+}
+aside > section > article> p,aside > section >article > ul> li {
     color: #202021;
     padding-left: 10px;
     margin: 5px
@@ -30,4 +51,8 @@ main{
     display: inline-block;
     width: 480px;
     padding-left: 15px;
+}
+aside > section > article> p > strong {
+    color: #202021;
+    margin: 5px
 }
