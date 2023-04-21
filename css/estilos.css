@@ -2,7 +2,7 @@
     border: 1px dotted rgb(33, 241, 113);
 }
 body {
-    margin: 0 auto;
+    margin: auto;
     max-width: 1000px;
     font-family: "Geneda", "Verdana", sans-serif;
     line-height: 1.5;
@@ -23,31 +23,45 @@ main > section > h2,main > section > hgroup > h2{
     background-color: #D6DDE6;
     color: #0E3569;
     padding: 10px;
-    margin: 5px
+    margin-left: 5px
 }
 main > section  > hgroup> h3,main > section > article > h3{
     color: #0E3569;
     padding: 10px;
     margin: 5px
 }
-aside{
-    float: left;
-    width: 470px;
-    padding-right: 10px;
+main > section > p,main > section >article > ul> li,main > section > article> p > strong {
+    color: #202021;
+    padding-left: 10px;
+    margin: 5px
 }
 main{
     float: right;
     width: 500px;
     padding-left: 15px;
 }
+aside{
+    float: left;
+    width: 470px;
+    padding-right: 10px;
+}
 aside > section > h2,aside > section > hgroup> h2{
     background-color: #D6DDE6;
     color: #0E3569;
     padding: 10px;
-    margin: 5px
+    margin-right: 5px
 }
 aside > section  > hgroup> h3,aside > section > article > h3{
     color: #0E3569;
     padding: 10px;
+    margin: 5px
+}
+aside > section > article> p,aside > section >article > ul> li,aside > section > article> p > strong {
+    color: #202021;
+    padding-left: 10px;
+    margin: 5px
+}
+aside > section > article> p > strong {
+    color: #202021;
     margin: 5px
 }
