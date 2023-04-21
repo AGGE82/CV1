@@ -13,9 +13,22 @@ div.cabecera > div{
     display: inline-block;
 
 }
-header > h1, header > h2{
+header > h1{
 color: #0E3569;
 width: 450px;
 padding: 10px;
 margin: 5px;
+font-size: 5em;
+}
+header > h2{
+    color: #202021;
+    width: 450px;
+    padding: 10px;
+    margin: 5px;
+    }
+figure {
+    display: inline-block;
+}
+header {
+    display: inline-block;
 }
