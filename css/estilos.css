@@ -26,7 +26,7 @@ aside > section  > hgroup> h3,aside > section > article > h3{
     padding: 10px;
     margin: 5px
 }
-aside > section > article> p,aside > section >article > ul> li,aside > section > article> p > strong {
+aside > section > article> p,aside > section >article > ul> li {
     color: #202021;
     padding-left: 10px;
     margin: 5px
