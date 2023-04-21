@@ -9,3 +9,25 @@ body {
     padding: 10px 20px;
     color: #555;
 }
+
+main > section > h2,main > section > hgroup > h2{
+    background-color: #D6DDE6;
+    color: #0E3569;
+    padding: 10px;
+    margin-left: 5px
+}
+main > section  > hgroup> h3,main > section > article > h3{
+    color: #0E3569;
+    padding: 10px;
+    margin: 5px
+}
+main > section > p,main > section >article > ul> li,main > section > article> p > strong {
+    color: #202021;
+    padding-left: 10px;
+    margin: 5px
+}
+main{
+    display: inline-block;
+    width: 480px;
+    padding-left: 15px;
+}
