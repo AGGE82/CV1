@@ -1,5 +1,5 @@
 *{
-    border: 1px dotted tomato;
+    border: 1px dotted rgb(33, 241, 113);
 }
 body {
     margin: 0 auto;
@@ -19,12 +19,24 @@ color: #0E3569;
 padding: 10px;
 margin: 5px;
 }
-main > section > h2,main > section > article > h3{
+main > section > h2,main > section > hgroup > h2{
+    background-color: #D6DDE6;
     color: #0E3569;
     padding: 10px;
     margin: 5px
 }
-aside > section > h2,aside > section > article > h3{
+main > section  > hgroup> h3,main > section > article > h3{
+    color: #0E3569;
+    padding: 10px;
+    margin: 5px
+}
+aside > section > h2,aside > section > hgroup> h2{
+    background-color: #D6DDE6;
+    color: #0E3569;
+    padding: 10px;
+    margin: 5px
+}
+aside > section  > hgroup> h3,aside > section > article > h3{
     color: #0E3569;
     padding: 10px;
     margin: 5px
