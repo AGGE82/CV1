@@ -9,3 +9,13 @@ body {
     padding: 10px 20px;
     color: #555;
 }
+div.cabecera > div{
+    display: inline-block;
+
+}
+header > h1, header > h2{
+color: #0E3569;
+width: 450px;
+padding: 10px;
+margin: 5px;
+}
