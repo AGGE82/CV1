@@ -36,13 +36,13 @@ main > section > p,main > section >article > ul> li,main > section > article> p 
     margin: 5px
 }
 main{
-    float: right;
-    width: 500px;
+    display: inline-block;
+    width: 480px;
     padding-left: 15px;
 }
 aside{
-    float: left;
-    width: 470px;
+    display: inline-block;
+    width: 480px;
     padding-right: 10px;
 }
 aside > section > h2,aside > section > hgroup> h2{
