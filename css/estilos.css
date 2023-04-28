@@ -1,6 +1,10 @@
 *{
     border: 1px dotted rgb(33, 241, 113);
 }
+div.img{
+    border: 5px solid white;
+	border-radius: 50%;
+}
 body {
     margin: auto;
     max-width: 1000px;
