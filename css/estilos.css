@@ -20,52 +20,50 @@ body {
 main > section > h2,main > section > hgroup > h2{
     background-color: #D6DDE6;
     color: #0E3569;
-    padding: 10px;
-    margin-left: 5px
+    padding: 2%;
+    margin-left: 1%;
 }
 main > section  > hgroup> h3,main > section > article > h3{
     color: #0E3569;
-    padding: 10px;
-    margin: 5px
+    padding: 2%;
+    margin: 1%;
 }
 aside{
-    display: inline-block;
-    width: 480px;
-    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 1%;
+    width: 48%;
 }
 aside > section > h2,aside > section > hgroup> h2{
     background-color: #D6DDE6;
     color: #0E3569;
-    padding: 10px;
-    margin-right: 5px
+    padding: 2%;
+    margin-right: 1%;
 }
 aside > section  > hgroup> h3,aside > section > article > h3{
     color: #0E3569;
-    padding: 10px;
-    margin: 5px
+    padding: 2%;
+    margin: 1%;
 }
 main > section > p,main > section >article > ul> li,main > section > article> p > strong {
     color: #202021;
-    padding-left: 10px;
-    margin: 5px
+    padding-left: 2%;
+    margin: 1%;
 }
 aside > section > article> p,aside > section >article > ul> li {
     color: #202021;
-    padding-left: 10px;
-    margin: 5px
+    padding-left: 2%;
+    margin: 1%;
 }
 main{
-    display: inline-block;
-    width: 480px;
-    padding-left: 15px;
+    display: flex;
+    flex-direction: column ;
+    padding-left: 1%;
+    width: 48%;
 }
 aside > section > article> p > strong {
     color: #202021;
-    margin: 5px
-}
-div.cabecera > div{
-    display: inline-block;
-
+    margin: 1%;
 }
 header > h1{
 color: #0E3569;
