@@ -12,6 +12,9 @@ body {
     line-height: 1.5;
     padding: 10px 20px;
     color: #555;
+    display:flex;
+    flex-wrap: wrap;
+    border: 2px solid #202021;
 }
 
 main > section > h2,main > section > hgroup > h2{
